@@ -12,7 +12,7 @@ fun main() {
 
     val pf =ClienteTipo.PF
     val pj = ClienteTipo.PJ
-    
+
     println("Enum: ${pf.name} - ${pf.descricao}")
     println("Enum: ${pj.name} - ${pj.descricao}")
 
