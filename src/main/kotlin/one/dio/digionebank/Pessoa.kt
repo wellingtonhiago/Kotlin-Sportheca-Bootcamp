@@ -1,21 +1,10 @@
 package one.dio.digionebank
 
 // Classe Pessoa
-class Pessoa {
+open class Pessoa(
     // Atributos
-    val nome: String = "Thanos"
-    var cpf: String = "222.222.222-33"
-        private set
+    open val nome: String,
+    open val cpf: String
+)
 
-    constructor()
-
-    // Função
-    fun pessoaInfo() = "Nome: $nome, CPF: $cpf"
-
-    // Classe interna
-    inner class Endereco{
-        val planeta: String = "Planeta Titã"
-    }
-
-}
 
