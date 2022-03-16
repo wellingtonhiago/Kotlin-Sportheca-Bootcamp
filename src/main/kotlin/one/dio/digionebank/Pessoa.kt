@@ -10,7 +10,7 @@ class Pessoa {
     constructor()
 
     // Função
-    fun pessoaInfo() = "$nome e $cpf"
+    fun pessoaInfo() = "Nome: $nome, CPF: $cpf"
 
     // Classe interna
     inner class Endereco{
@@ -19,16 +19,3 @@ class Pessoa {
 
 }
 
-fun main() {
-    // Instanciando classe Pessoa
-    val thanos = Pessoa()
-    println(thanos.nome)
-    println(thanos.cpf)
-
-    // Chamando classe interna Endereco
-    println(thanos.Endereco().planeta)
-
-    // Chamando a Função pessoaInfo
-    println(thanos.pessoaInfo())
-
-}
