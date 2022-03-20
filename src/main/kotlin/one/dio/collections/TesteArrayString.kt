@@ -12,7 +12,7 @@ fun main() {
         print("[$nomes]")
     }
 
-    println("\n---------------")
+    println("\n-----------------")
 
     personagens.sort()
     personagens.forEach {
